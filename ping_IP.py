@@ -3,6 +3,9 @@
 
 import sys
 import os
+import pyfiglet  
+
+print(pyfiglet.figlet_format("Auto Ping")) #for decoration purpose
 
 print("Number of pings "+sys.argv[1])           #second argument
 print("IP adress ping to "+sys.argv[2])         #third argument
